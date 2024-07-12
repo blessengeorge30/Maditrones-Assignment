@@ -831,3 +831,21 @@ nav {
         padding: 10px;
     }
 }
+
+@media (max-width:640px) {
+    .banner-text {
+        font-size: 0px;
+width: 20%;
+        top: 2%;
+    }
+    .banner-home-button {
+        padding: 5px 10px;
+        font-size: 0.8rem;
+        opacity: 0;
+        }
+    
+
+    .work-item {
+        max-width: 55%;
+    }
+}
